@@ -1,9 +1,17 @@
 
 
 *{
-    background-color: chocolate;
+    background-color: rgba(104, 222, 80, 0.956);
 }
 
 h1{
-    font-size: 40px; color: floralwhite;
+    font-size: 40px; color: #90420b;
 }
+
+*{
+    color: aliceblue;
+}
+h2{
+    color: rgb(1, 27, 27);
+}
+
