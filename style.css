@@ -1,7 +1,7 @@
 
 
 *{
-    background-color: rgba(104, 222, 80, 0.956);
+    background-color: white;
 }
 
 h1{
@@ -9,9 +9,13 @@ h1{
 }
 
 *{
-    color: aliceblue;
+    color: black;
 }
 h2{
-    color: rgb(1, 27, 27);
+    color: blueviolet;
+}
+
+br[href] {
+    color:blueviolet
 }
 
