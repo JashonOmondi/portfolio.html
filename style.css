@@ -1,27 +1,39 @@
-
-
-*{
-    background-color:#59AC77;
+div{
+    background-color: blanchedalmond;
+    border: 1px solid;
+    text-align: center;
+    margin-top: 100px;
+    margin: auto;
+    font-family: "Libre Baskerville",serif;
+    width: 95%;
+    
+}
+img{
+    width: 50%;
+    border: 5px solid;
 }
 
 h1{
-    font-size: 40px; color: #90420b;
-}
-
-*{
-    color: black;
-}
-h2{
-    color: blueviolet;
-}
-
-br[href] {
-    color:blueviolet
-}
-*{
     text-align: center;
+    color: blue;
+    text-transform: uppercase;
+}
+#Summary{
+    background-color: aqua;
 }
 
-img{
-    border-style: solid; color: darkviolet;
+#Education{
+    background-color: crimson;
+}
+#Work{
+    background-color: chartreuse;
+}
+#Skills{
+    background-color: plum;
+}
+#awards{
+    background-color: burlywood;
+}
+#info{
+    background-color: cyan;
 }
