@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Document</title>
+    <style>
+        div{
+            background-color: red;
+            height: 0px;
+            width: 1000px;
+        }
+        .black{
+            background-color: black;
+            height: 100px;
+            width: 1000px;
+            position: relative;
+            top: 32px;
+
+        }
+        .white{
+            background-color: white;
+            height: 20px;
+            width: 1000px;
+            position: absolute;
+            
+        }
+        .red{
+            background-color: red;
+            height: 100px;
+            width: 1000px;
+            
+            position: relative;
+            top: 34px;
+
+        }
+        div p .red{
+            background-color: white;
+            height: 150 ;
+            width: 50;
+        }
+        #white{
+            background-color: white;
+            height: 35px;
+        }
+        .green{
+            background-color: green;
+            height: 100px;
+            position: relative;
+            bottom: 20px;
+        }
+
+        .shield{
+            width: 100px;
+            height: 200px;
+            background-color: red;
+            border: 6px solid white;
+            border-radius: 50%;
+            position:absolute;
+            top: 130px;
+            left: 45%;
+            transform: translateX(-50);
+            z-index: 2;
+        }
+
+        .shield::before{
+            content: "";
+            width: 40px;
+            height: 130px;
+            background-color: black;
+            border-radius: 60%;
+            position: absolute;
+            top: 30px;
+            left: 50%;
+            transform: translateX(-50%);
+        }
+        .spear{
+            width: 4px;
+            height: 250px;
+            background-color: white;
+            position: absolute;
+            top: 60px;
+            left: 50%;
+            transform-origin: center;
+            z-index: 1;
+
+        }
+        .spear.left{
+            transform: rotate(-25deg);}
+        .spear.right{
+            transform: rotate(25deg);
+        }
+    </style>
+</head>
+<body>
+    <div>
+        <h1> </h1>
+        <div>
+            <p class="black"></p>
+            <p class="white"></p>
+            <p class="red"></p>
+            <p id="white"></p>
+            <p class="green"></p>
+        
+        <!--Spears-->
+        <div class="spear left"></div>
+        <div class="spear right"></div>
+        <!--shield-->
+        <div class="shield"></div>
+
+</body>
+</html>

@@ -1,6 +1,6 @@
 div{
-    background-color: white;
-    border: 1px solid blueviolet;
+    background-color: #cc345c;
+    
     text-align: center;
     margin-top: 100px;
     margin: auto;
@@ -13,6 +13,3 @@ h1, h2, h3{
     font-size: larger;
 }
 
-.Summary.Education, .Work, .Skills, .awards, .info{
-    font-size: 10px;
-}
