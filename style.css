@@ -1,5 +1,5 @@
 div{
-    background-color: #cc345c;
+    background-color: #faf9f6;
     
     text-align: center;
     margin-top: 100px;
@@ -7,9 +7,57 @@ div{
     font-family: "Libre Baskerville",serif;
     width: 95}
 
-h1, h2, h3{
+h1{
     color: purple;
     padding: auto;
     font-size: larger;
 }
 
+.port{
+    color: midnightblue;
+}
+.dan{
+    color: salmon;
+}
+
+img{
+    height: 300px;
+    width: 300px;
+    border-radius: 250px;
+}
+
+h2{
+    color: navy;
+}
+#Summary{
+    display: inline;
+    width: 100%;
+}
+
+.footer{
+    color: fuchsia;
+}
+#Education{
+    display: inline-block;
+}
+#work{
+    display: block;
+    width: 45%;
+}
+@media (max-width: 500px){
+    #summary{
+        font-size: 20px;
+    }
+    div{
+        width: 100%;
+    display: block;
+    margin-bottom: 30px;
+    text-align: center;
+    }
+    img{
+        margin-bottom: 10px;
+    display: inline;
+    width: 100%;
+    
+    }
+}
